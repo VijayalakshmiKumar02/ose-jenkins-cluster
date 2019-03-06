@@ -21,6 +21,16 @@
     },
     "objects": [
 	    {
+            "kind": "ImageStream",
+            "apiVersion": "v1",
+            "metadata": {
+                "name": "${JENKINS_SERVICE_NAME}-slave",
+                "labels": {
+                    "application": "${JENKINS_SERVICE_NAME}-slave"
+                }
+            }
+        },
+	    {
 		    "kind": "ImageStream",
 		    "apiVersion": "v1",
 		    "metadata": {
@@ -30,6 +40,7 @@
 				"dockerImageRepository": "registry.access.redhat.com/rhel7/rhel"
 			}
 		},
+	     
         {
             "apiVersion": "v1",
             "kind": "Route",
