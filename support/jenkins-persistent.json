@@ -495,4 +495,8 @@
             "name": "ENABLE_FATAL_ERROR_LOG_FILE",
             "value": "false"
         }
-    ]
+    ],
+    "labels": {
+        "template": "jenkins-cluster-persistent"
+    }
+}
