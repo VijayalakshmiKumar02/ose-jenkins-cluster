@@ -465,13 +465,13 @@
             "description": "The name of the OpenShift Service exposed for the Jenkins container.",
             "displayName": "Jenkins Service Name",
             "name": "JENKINS_SERVICE_NAME",
-            "value": "jenkins"
+            "value": "jenkins1"
         },
         {
             "description": "The name of the service used for master/slave communication.",
             "displayName": "Jenkins JNLP Service Name",
             "name": "JNLP_SERVICE_NAME",
-            "value": "jenkins-jnlp"
+            "value": "jenkins-slave"
         },
         {
             "description": "Whether to enable OAuth OpenShift integration. If false, the static account 'admin' will be initialized with the password 'password'.",
