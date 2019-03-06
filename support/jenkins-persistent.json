@@ -504,6 +504,32 @@
             "displayName": "Fatal Error Log File",
             "name": "ENABLE_FATAL_ERROR_LOG_FILE",
             "value": "false"
+        },
+	{
+            "name": "GIT_URI",
+            "description": "Git Repository",
+            "value": "https://github.com/VijayalakshmiKumar02/ose-jenkins-cluster.git"
+        },
+        {
+            "name": "GIT_REF",
+            "description": "Git Branch",
+            "value": "master"
+        },
+        {
+            "name": "EXECUTORS",
+            "description": "Number of executors per slave agent",
+            "value": "1"
+        },
+        {
+            "name": "SLAVE_RECCURENCE_PERIOD",
+            "description": "Interval of time to check whether to provision additional slave nodes",
+            "value": "500"
+        },
+        {
+            "name": "VOLUME_CAPACITY",
+            "description": "Volume space available for data, e.g. 512Mi, 2Gi",
+            "value": "512Mi",
+            "required": true
         }
     ],
     "labels": {
